@@ -1,0 +1,11 @@
+package com.language_fundamental.main_method;
+
+//on runtime jvm will check for the main method
+//public -->to call the jvm from any where 
+//static -->without existing object also jvm has to call this method.
+//void -->
+public class Maindemo {
+
+}
+
+()->{};

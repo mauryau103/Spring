@@ -1,0 +1,8 @@
+package com.interfaces;
+
+
+//Any service requirement specification is called an interface.
+//inside interface every method is by default every method is abstract.
+public class InterfaceDemo {
+
+}

@@ -1,0 +1,38 @@
+package com.declaration_and_access_modifiers.classmodifier;
+
+//better this class can be accessible from anywhere or not.
+//better child class creation is possible or not.
+//whether object creation is possible or not.
+//top level classes modifiers : -
+
+//1.public -->we can access this class from anywhere
+//2.default --> only within a current package(package level access).
+//3.final --> final is applicable for classes,methods and variables.
+			
+			//a.final Methods
+				//whatever the methods parent has by default available to the child.
+				//the final method can't be overridden.(above line meant the same in another way).
+			//b.final class
+				//if final class is there then inheritance concept is not applicable for final classes.
+				//every method present inside final class is always by default final. but every variable present in final class need not be final.
+				//main advantage of final we achieve security.
+				//main disadvantage is we are missing oops concept.polymorphism(because of final methods) and inheritance(due to final classes).
+//4.Abstract -->Abstract is the modifier applicable only for methods and classes but not for variables.
+
+				//a.Abstract Methods
+				// when we use abstract method then our class should also be abstract.
+				//our abstract method implementation is the responsibility of child classes.
+				//abstract method have only declaration but not implementation.
+//5.strictfp
+
+//if we use any other modifier will get ce.
+
+
+//inner level classes modifiers 
+
+//1.private
+//2.protected
+//3.static
+public class ClassModifiers {
+
+}

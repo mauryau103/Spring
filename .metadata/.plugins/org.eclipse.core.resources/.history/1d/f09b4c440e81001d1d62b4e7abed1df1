@@ -1,0 +1,19 @@
+package com.language_fundamental.identifiers;
+
+
+
+//1st. Identifier  
+public class IdentifierDemo {
+
+	//A name in java program is called identifier.
+	//it may be class name,method name and label name.
+	int _$_ = 2; //valid
+	int ca$h = 4; //valid
+	int java2share =4; //valid
+//	int all@hands = 7; //not valid
+	
+//	 int 123abc=5; //invalid
+	
+//	int Total#=45; //invalid
+	
+}

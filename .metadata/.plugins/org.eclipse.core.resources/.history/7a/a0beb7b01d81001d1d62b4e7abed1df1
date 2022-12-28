@@ -1,0 +1,9 @@
+package com.language_fundamental.literals;
+
+public class LiteralsDemo {
+//assigned values are literals
+	//decimal literals
+	int x =10;
+	//Octal Literals 
+	//
+}

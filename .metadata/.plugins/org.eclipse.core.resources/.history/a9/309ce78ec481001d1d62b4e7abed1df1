@@ -1,0 +1,14 @@
+package com.language_fundamental.var_args_methods;
+
+interface A{
+	
+	default void mymeth() {
+		System.out.println("default method");
+	}
+}
+
+public class Var_argsDemo implements A{
+public static void main(String[] args) {
+	
+}
+}

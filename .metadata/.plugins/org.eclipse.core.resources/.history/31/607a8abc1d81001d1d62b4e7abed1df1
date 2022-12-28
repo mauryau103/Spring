@@ -1,0 +1,11 @@
+package com.language_fundamental.literals;
+
+public class LiteralsDemo {
+//assigned values are literals
+	//decimal literals
+	int x =10;
+	//Octal Literals 
+	//allowed digit are 0 to 7
+	//but we should always start with 0
+	int y =010; //090 -->invalid
+}

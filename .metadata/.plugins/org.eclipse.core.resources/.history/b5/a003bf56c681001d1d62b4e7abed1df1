@@ -1,0 +1,7 @@
+package com.language_fundamental.main_method;
+
+//on runtime jvm will check for the main method
+
+public class Maindemo {
+
+}

@@ -1,0 +1,8 @@
+package com.language_fundamental.var_args_methods;
+
+
+
+public class Var_argsDemo implements A{
+	
+	
+}

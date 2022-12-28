@@ -1,0 +1,80 @@
+package com.language_fundamental.datatypes;
+
+//every variable has type
+//every assignment as expression for type is checked at compile time always
+//hence java language is considered as a strongly typed language.
+
+public class DataTypesDemo {
+
+	//primitive data types
+	
+	//1. Numeric data types --> to represent numbers. --> //Integral --> byte,short,int,long // Floating --> float,double
+	//2. Char data types --> to represent characters.
+	//3. Boolean data types --> to represent logical values.
+	
+	
+	public static void main(String[] args) {
+		//Byte
+		/*
+		 *size : 1byte(8bits)
+		 *maxvalue : +127
+		 *minvalue :-128
+		 *Range : -128 to 127[-2^7 to 2^7-1]
+		 * 
+		 */
+		
+		//byte data type is best suitable if we are handling data in terms of streams either from the file or from the network.
+		byte b= 10;
+		//byte b2=130;  //cannot convert int to byte
+		
+		
+		System.out.println("byte value :" +b);
+		//System.out.println(b2);
+		
+		//Short
+		
+		//the most rarely used data types in java is short.
+		//Size: 2 bytes 
+		//Range: -32768 to 32767
+		
+		short s =130;
+	//	short s2= 32768; //cannot convert int to short
+		short s3 = (short) 32768;
+		
+		System.out.println("short value : "+s);
+		System.out.println("short casted value : "+s3);
+		
+		//Int
+		//This is most commonly used data type in java. 
+		// Size: 4 bytes 
+		// Range:-2147483648 to 2147483647
+		
+		int a = 9;
+		System.out.println(a);
+		//long
+		
+		//Whenever int is not enough to hold big values then we should go for long data type. 
+		//Size: 8 bytes 
+		// Range:-2^63 to 2^63-1 
+
+		long l= 21374654;
+		System.out.println(l);
+		
+		//float
+		//If we want to 5 to 6 decimal places of accuracy then we should go for float.
+		//size 4 bytes
+		float f = 12.56875343f;
+		System.out.println(f);
+		
+		//
+		double
+		//If we want to 14 to 15 decimal places 
+		//of accuracy then we should go for double
+		//size 8 bytes
+		double d= 12.5676576;
+		System.out.println(d);
+	}
+	
+	
+	
+}

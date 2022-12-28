@@ -1,0 +1,28 @@
+package com.language_fundamental.var_args_methods;
+
+//internally varagrs parameter using single dimensional array.
+//(int... x) //valid
+//(int ...x) // valid
+
+//we can mix var-args with general parameter also.
+
+//methodOne(int a,int... b)
+//if we mix var-args parameter with general param then var-args should be the last one.
+//we can take  only one var args method inside parameter multiple var-arg is not allowed.
+
+public class Var_argsDemo {
+	
+	public static void methodOne(int i) {
+		System.out.println("General method");
+	}
+	
+	public static void methodOne(int... i) {
+		System.out.println("Var - arg method");
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	
+}

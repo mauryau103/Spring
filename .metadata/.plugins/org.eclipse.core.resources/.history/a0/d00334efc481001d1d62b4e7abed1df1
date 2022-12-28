@@ -1,0 +1,8 @@
+package com.language_fundamental.var_args_methods;
+
+//internally varagrs parameter using single dimensional array.
+
+public class Var_argsDemo implements A{
+	
+	
+}

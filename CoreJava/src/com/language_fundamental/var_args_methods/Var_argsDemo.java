@@ -1,0 +1,31 @@
+package com.language_fundamental.var_args_methods;
+
+//internally varagrs parameter using single dimensional array.
+//(int... x) //valid
+//(int ...x) // valid
+
+//we can mix var-args with general parameter also.
+
+//methodOne(int a,int... b)
+//if we mix var-args parameter with general param then var-args should be the last one.
+//we can take  only one var args method inside parameter multiple var-arg is not allowed.
+
+public class Var_argsDemo {
+	
+	public static void methodOne(int i) {
+		System.out.println("General method");
+	}
+	//var-arg method will get least priority that is if no other method matched then only var-arg methd will get the chance .same as default of switch.
+	public static void methodOne(int... i) {
+		System.out.println("Var - arg method");
+	}
+	
+	public static void main(String[] args) {
+		methodOne(); //varargmethod
+		methodOne(10,20); //varargmethod
+		methodOne(10); //general method
+	}
+	
+	//if we used same method signature and parameter is array and second method has parameter as varargs then there will be error.
+	
+}

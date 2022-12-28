@@ -1,0 +1,9 @@
+package com.interfaces;
+
+
+//Any service requirement specification is called an interface.
+//inside interface every method is by default every method is abstract.
+//Any service requirement specification (SRS) or any contract between client and service provider or 100% pure abstract classes is considered as an interface. 
+public class InterfaceDemo {
+
+}

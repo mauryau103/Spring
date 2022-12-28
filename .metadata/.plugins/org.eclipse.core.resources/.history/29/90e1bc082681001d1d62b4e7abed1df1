@@ -1,0 +1,19 @@
+package com.language_fundamental.literals;
+
+public class LiteralsDemo {
+//assigned values are literals
+	//decimal literals
+	int x =10;
+	//Octal Literals 
+	//allowed digit are 0 to 7
+	//but we should always start with 0
+	int y =010; //090 -->invalid
+	
+	//Hexa decimal literals
+	// The allowed digits are 0 to 9, A to Z.
+	//The literal value should be prefixed with 0x (or) 0X.
+	
+	int z = 0XFACE;
+	
+	//every data type defined value is known as there respective 
+}

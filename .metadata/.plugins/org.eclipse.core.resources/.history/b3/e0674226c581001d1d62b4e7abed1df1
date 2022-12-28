@@ -1,0 +1,13 @@
+package com.language_fundamental.var_args_methods;
+
+//internally varagrs parameter using single dimensional array.
+//(int... x) //valid
+//(int ...x) // valid
+
+//we can mix var-args with general parameter also.
+
+//methodOne(int a,int... b)
+public class Var_argsDemo implements A{
+	
+	
+}

@@ -1,0 +1,15 @@
+package com.stream;
+
+public class OptionalDemo {
+	
+	//by using optional class we deal with nullpointerexception.
+	
+	//to create object of optional there are 3 factory static methods present .
+	
+	//1.empty().
+	//2.of()
+	//3.ofNullable()
+public static void main(String[] args) {
+	
+}
+}

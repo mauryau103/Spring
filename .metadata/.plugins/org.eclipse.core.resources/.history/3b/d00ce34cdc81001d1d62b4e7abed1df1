@@ -1,0 +1,9 @@
+package com.declaration_and_access_modifiers.membermodifier;
+
+
+//public members
+//If a member declared as the public then we can access that member from anywhere “but the corresponding class must be visible” hence before checking member visibility we have to check class visibility. 
+
+public class MemberModifierDemo {
+
+}

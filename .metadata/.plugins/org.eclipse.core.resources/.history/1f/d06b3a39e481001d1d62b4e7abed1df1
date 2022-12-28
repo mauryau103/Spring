@@ -1,0 +1,25 @@
+package com.interfaces;
+
+
+//Any service requirement specification is called an interface.
+//inside interface every method is by default every method is abstract.
+//Any service requirement specification (SRS) or any contract between client and service provider or 100% pure abstract classes is considered as an interface.
+
+//whenever we are implementing the methods of interface inside class.it's compulsory to be declared as a public otherwise we will get compile time error . that we are lessering the scope size if we have'nt define public.
+
+//methods -->by default public and abstract.
+//variables --> public,static,final
+
+//method naming conflicts
+
+
+interface A{
+	public void methodOne();
+}
+interface B{
+	public void methodOne();
+}
+
+public class InterfaceDemo implements A,B{
+
+}

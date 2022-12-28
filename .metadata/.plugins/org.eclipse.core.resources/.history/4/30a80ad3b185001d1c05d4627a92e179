@@ -1,0 +1,32 @@
+package com.stream;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class OddSum {
+	
+public static void main(String[] args) {
+	
+	List<Integer> number = Arrays.asList(1,2,3,4,5);
+	
+	//Normal programming using normal forloop
+	
+	int sum=0;
+	for(int n:number) {
+		if(n%2==1) {
+			int square = n*n;
+			sum=sum+square;
+		}
+	}
+	System.out.println(sum);
+	
+	//by using stream and reduce;
+	int sum1=number.stream().filter(n->n%2==1).map(n->n*n).reduce(0, Integer::sum);
+	System.out.println(sum1);
+	
+	Integer sum2 = number.stream().mapToInt(Integer::sum);
+	
+	//by using parallel Stream
+	
+}
+}

@@ -1,0 +1,5 @@
+package com.declaration_and_access_modifiers;
+
+public class PackageImportantPoint {
+
+}

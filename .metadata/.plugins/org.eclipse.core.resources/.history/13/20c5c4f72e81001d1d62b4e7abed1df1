@@ -1,0 +1,81 @@
+package com.language_fundamental.Arrays;
+
+//An array is a indexed collection of a fixed number of homogeneous data element.
+
+public class ArraysDemo {
+	//below all are valid declaration of array.
+	//single dimension array declaration
+	
+	//this is instance variable there is no restriction whether to initialize or not.
+	String name;
+	
+	int[] a;
+	
+	int []b;
+	int c[];
+	//above all are valid declaration of array.
+	
+	//Two dimension array declaration
+	
+	int[][] d;
+	int[] []e;
+	int [][]f;
+	int g[][];
+	int []h[];
+	
+	
+	//multiple array declaration
+	
+	int[] a1,b1; //here both are single d array
+	
+	int[] a2[],b2; //here a2 --> double d and b2-->single d
+	
+	int[][] a3,b3; //both are 2d;
+	
+	int[] []a4,b4; //both are 2d;
+	
+//	int[] a5,[]b5; //this is invalid we can't specify the dimension to variable after first variable only before first element we can do that.
+	
+	
+	//Every array in java is an object 
+	
+	public static void main(String[] args) {
+		
+		//This is local variable ..it should be initialized necessarily.
+		String name2 = "initialized";
+		System.out.println(name2);
+		ArraysDemo arrayDemo = new ArraysDemo();
+		System.out.println(arrayDemo.name);
+		
+		
+		//array Construction
+		//At the time of array creation compulsory we should specify the size otherwise we will get compile time error.
+		//error --> array dimension missing
+		int[] a = new int[3];
+		a[0]=2;
+		a[1]=1;
+		System.out.println(a);
+		
+		//we can have array as a size zero in java.
+		int[] b = new int[0];
+		
+		//If we are taking array size with -ve int value then we will get runtime exception saying NegativeArraySizeException.
+		
+//		int[] c = new int[-3]; //it will throw run time exception
+		
+		//we can define array size with byte,short,int,char only.
+		
+		int[] d = new int[(short)5.9];
+		d[0]=2;
+		d[1]=2;
+		d[2]=2;
+		
+		for(int i=0;i<5.0;i++) {
+			System.out.println(d[i]);
+		}
+		
+		int[] e = new int[5];
+		System.out.println(e.length);
+		
+	}
+}

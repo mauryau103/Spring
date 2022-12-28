@@ -1,0 +1,8 @@
+package com.language_fundamental.reserved_words;
+
+//in java some identifiers are resereved to associate some functionality or meaning such type of reserves identifiers are called as reserved words.
+
+
+public class ReservedWordsDemo {
+
+}

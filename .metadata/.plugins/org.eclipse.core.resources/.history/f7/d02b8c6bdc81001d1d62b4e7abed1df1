@@ -1,0 +1,11 @@
+package com.declaration_and_access_modifiers.membermodifier;
+
+
+//public members
+//If a member declared as the public then we can access that member from anywhere “but the corresponding class must be visible” hence before checking member visibility we have to check class visibility. 
+
+//default members
+//If a member declared as the default then we can access that member only within the current package hence default member is also known as package level access.
+public class MemberModifierDemo {
+
+}

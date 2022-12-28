@@ -1,0 +1,7 @@
+package com.interfaces;
+
+
+//Any service requirement specifivcation is called an interface
+public class InterfaceDemo {
+
+}
